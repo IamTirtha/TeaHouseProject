@@ -32,14 +32,27 @@
     <link rel="stylesheet" href="tailwint.init.css">
   </head>
   <body>
-    <section class="grid grid-cols-2 container border border-amber-200 mx-auto">
-      <div class="banner-left">
-        <h1 class="text-[80px] font-bold">It's good  <br> tea time at The <br> Tea House</h1>
-        <p class="text-[18px] font-normal text-[#777777]">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
-        <button class="btn1 text-[20px] font-bold">Explore More</button>
+    <section class="grid  grid-cols-1 md:grid-cols-2 container  mx-auto">
+
+      <!-- left content -->
+      <div class="banner-left space-y-[30px]">
+        <h2 class="text-[80px] font-bold">It's good  <br> tea time at The <br> Tea House</h2>
+        <p class="text-[18px] font-normal text-[#777777] ">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+        <button class="btn1 text-[20px] font-bold px-3 py-5 rounded-[10px]  bg-linear-to-r from-[#FF0000] via-[#FF5623] to-[#FF8938]  ">Explore More <span><i class="fa-solid fa-square-arrow-up-right"></i></span> </button>
       </div>
-      <div class="banner-right">
+
+      <!-- Right picture -->
+      <div class="banner-right flex justify-end items-end relative">
         <img src="./tea-house-resources/images/banner.png" alt="">
+
+        <!-- Rating card -->
+        <div class=" flex  justify-center items-center bg-white rounded-[10px] shadow-2xl px-[26px] py-[19px] absolute bottom-[27px] left-[120px] w-[330px] h-[100px] gap-[13px]">
+          <img src="./tea-house-resources/images/Group 5.png" alt="">
+          <div>
+            <p class="font-extrabold text-[30px]">5.00</p>
+            <p class="font-semibold text-[16px] text-[#777777]">Trust pilot Rating</p>
+          </div>
+        </div>
       </div>
     </section>
   </body>
